@@ -1,2 +1,2 @@
 # MBIbTrainingCamp
-training with marion estrada
+training with Mario Estrada
