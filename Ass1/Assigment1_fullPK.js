@@ -11,7 +11,7 @@ Description: This assigment is comprised of six main functions:
 			 MixUp
 			 FixStart
 			 Verbing
-			 Not Bad
+			 Not Bad 
 */
 
 //The Calculator

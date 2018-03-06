@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Ass2",
+      "appliesTo": "Ass2/",
+      "type": "launch"
+    }
+  ]
+}
