@@ -33,6 +33,14 @@ function guessLetter(letter) {
 //bonus
 function bonusOne() { }
 
+function resetvars() {
+    gAttemps = 0;
+    bAttemps = 0; 
+
+    gAttempsArr = [];
+    bAttempsArr = [];
+}
+
 guessLetter('J');
 guessLetter('U');
 guessLetter('M');
