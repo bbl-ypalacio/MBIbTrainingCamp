@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Ass1",
-    "\\Ass2"
+    "\\training",
+    "\\training\\day5",
+    "\\training\\day5\\exercise"
   ],
-  "SelectedNode": "\\Ass1\\Assigment1_fullPK.js",
+  "SelectedNode": "\\training\\day5\\exercise",
   "PreviewInSolutionExplorer": false
 }

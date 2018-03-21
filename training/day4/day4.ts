@@ -1,4 +1,6 @@
-let mickey      : boolean;
+//notes: https://www.typescriptlang.org/docs/handbook/interfaces.html
+
+let mickey: boolean;
 let plutoNum    : number;
 let plutost     : string;
 let hex         : number = 0xf00d;
