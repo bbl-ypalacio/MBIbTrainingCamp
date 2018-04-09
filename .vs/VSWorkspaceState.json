@@ -2,9 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\training",
-    "\\training\\day5",
-    "\\training\\day5\\exercise"
+    "\\training\\day9\\example1",
+    "\\training\\day9\\example1\\build",
+    "\\training\\day9\\example1\\build\\src",
+    "\\training\\day9\\example1\\build\\src\\lib",
+    "\\training\\day9\\example1\\src",
+    "\\training\\day9\\example1\\src\\lib"
   ],
-  "SelectedNode": "\\training\\day5\\exercise",
+  "SelectedNode": "\\training\\day9",
   "PreviewInSolutionExplorer": false
 }

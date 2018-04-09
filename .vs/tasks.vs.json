@@ -5,6 +5,11 @@
       "taskName": "task-Ass2",
       "appliesTo": "Ass2/",
       "type": "launch"
+    },
+    {
+      "taskName": "task-example1",
+      "appliesTo": "training/day9/example1/",
+      "type": "launch"
     }
   ]
 }
