@@ -1,14 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\training",
-    "\\training\\day9\\example1",
-    "\\training\\day9\\example1\\build",
-    "\\training\\day9\\example1\\build\\src",
-    "\\training\\day9\\example1\\build\\src\\lib",
-    "\\training\\day9\\example1\\src",
-    "\\training\\day9\\example1\\src\\lib"
+    "\\Assigmnets",
+    "\\Assigmnets\\Ass4",
+    "\\Assigmnets\\Ass4\\WebService",
+    "\\Assigmnets\\Ass4\\WebService\\build",
+    "\\Assigmnets\\Ass4\\WebService\\SRC"
   ],
-  "SelectedNode": "\\training\\day9",
+  "SelectedNode": "\\Assigmnets\\Ass4\\WebService\\package.json",
   "PreviewInSolutionExplorer": false
 }
