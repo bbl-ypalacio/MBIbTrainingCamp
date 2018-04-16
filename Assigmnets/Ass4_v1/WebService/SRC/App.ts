@@ -12,27 +12,35 @@ class App {
     private mountRoutes(): void {
         
         const router                    = express.Router();
-        //const routerSetInitialBalance   = express.Router();
+        const routerSetInitialBalance   = express.Router();
         const routerWithdrawMoney       = express.Router();
         const routerDepositMoney        = express.Router();
-        const routerShowBalance         = express.Router();
+        const routerShowBalance = express.Router();
 
-		//ensuring we have connectivity to webservice
+        //ensuring we have connectivity to webservice
         router.get('/atm', (req, res) => {
             res.json({
                 status: 0,
                 message: "ok"
             })
-        });   
+        });  
+
+        //routerSetInitialBalance
+        router.get('/atm/setInitialBalance/:acct/balance/:bal', (req, res) => {
+            console.log("routerSetInitialBalance is being called by: " + req.params.acct);
+            res.json({
+                account: req.params.acct,
+                amount: req.params.bal
+            })
+        }); 
 		
 		//routerWithdrawMoney
 		router.get('/atm/withdraw/:account/amount/:amount', (req, res) => {
             console.log("routerWithdrawMoney is being called by: " + req.params.account);
-
-            //this.accFunds = this.accFunds - (req.params.amount); 
             
             res.json({
-                acctNum: req.params.account
+                account: req.params.account,
+                amount  : req.params.amount
             })
         });
 		
@@ -40,32 +48,23 @@ class App {
         router.get('/atm/deposit/:account/amount/:amount', (req, res) => {
             console.log("routerDepositMoney is being called by: " + req.params.account);
 
-            //this.accFunds = this.accFunds + amt;
-
             res.json({
                 account: req.params.account,
-                amount: req.params.amount
+                amount : req.params.amount
             })
         });
 
-		/*
-		router.get('/atm', (req, res) => {
-            res.json({
-                status: 0,
-                message: "ok"
-            })
-        }); */
-		
+
 		//routerShowBalance
-        router.get('/atm/:citNum', (req, res) => {
-            console.log("routerShowBalance is being called by: " + req.params.citNum);
+        router.get('/atm/:account', (req, res) => {
+            console.log("routerShowBalance is being called by: " + req.params.account);
             res.json({
-                acctNum: req.params.citNum		
+                account: req.params.account		
             })
         });
 
         this.express.use('/', router)
-		//this.express.use('/', routerSetInitialBalance)
+		this.express.use('/', routerSetInitialBalance)
 		this.express.use('/', routerWithdrawMoney)
 		this.express.use('/', routerDepositMoney)
         this.express.use('/', routerShowBalance)

@@ -6,13 +6,22 @@ var Atm = /** @class */ (function () {
     function Atm() {
     }
     Atm.prototype.setInitialBalance = function (acct, balance) {
+        var _this = this;
         this.accountNumber = acct;
         this.initialBalance = balance;
         this.currentBalance = balance;
-        console.log(">>>>setInitialBalance<<<<<<<<");
-        console.log("Account Number :" + this.accountNumber);
-        console.log("Initial Balance:" + this.initialBalance);
-        console.log("Current Balance:" + this.currentBalance);
+        if (acct == this.accountNumber) {
+            got.get("http://localhost:3001/atm/setInitialBalance/" + acct + "/balance/" + balance).then(function (result) {
+                var data = JSON.parse(result.body);
+                console.log("\n>>>>setInitialBalance<<<<<<<<");
+                console.log("Account Number :" + data.account);
+                console.log("Initial Balance:" + data.amount);
+                console.log("Current Balance:" + _this.currentBalance);
+            });
+        }
+        else {
+            console.log('**Error, wrong account number*');
+        }
     };
     Atm.prototype.withdrawMoney = function (acct, amount) {
         var _this = this;
@@ -20,9 +29,9 @@ var Atm = /** @class */ (function () {
             got.get("http://localhost:3001/atm/withdraw/" + acct + "/amount/" + amount).then(function (result) {
                 var data = JSON.parse(result.body);
                 _this.currentBalance = _this.currentBalance - amount;
-                console.log(">>>>withdrawMoney<<<<<<<<");
-                console.log(" Account Number :" + acct);
-                console.log(" Withdrew  BZD  :" + amount);
+                console.log("\n>>>>withdrawMoney<<<<<<<<");
+                console.log(" Account Number :" + data.account);
+                console.log(" Withdrew  BZD  :" + data.amount);
                 console.log(" Avaliable BZD  :" + _this.currentBalance);
             });
         }
@@ -36,8 +45,9 @@ var Atm = /** @class */ (function () {
             got.get("http://localhost:3001/atm/deposit/" + acct + "/amount/" + amount).then(function (result) {
                 var data = JSON.parse(result.body);
                 _this.currentBalance = _this.currentBalance + amount;
-                console.log(">>>>depositMoney<<<<<<<<");
-                console.log("Amount deposited :" + amount);
+                console.log("\n>>>>depositMoney<<<<<<<<");
+                console.log("Account Number   :" + data.account);
+                console.log("Amount deposited :" + data.amount);
                 console.log("Avaliable balance:" + _this.currentBalance);
             });
         }
@@ -49,8 +59,8 @@ var Atm = /** @class */ (function () {
         var _this = this;
         got.get("http://localhost:3001/atm/" + acct).then(function (result) {
             var data = JSON.parse(result.body);
-            console.log(">>>>showBalance<<<<<<<<");
-            console.log("Account Number  :" + _this.accountNumber);
+            console.log("\n>>>>showBalance<<<<<<<<");
+            console.log("Account Number  :" + data.account);
             console.log("Current Balance :" + _this.currentBalance);
         });
     };

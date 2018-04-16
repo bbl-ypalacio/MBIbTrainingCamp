@@ -9,7 +9,7 @@ var App = /** @class */ (function () {
     }
     App.prototype.mountRoutes = function () {
         var router = express.Router();
-        //const routerSetInitialBalance   = express.Router();
+        var routerSetInitialBalance = express.Router();
         var routerWithdrawMoney = express.Router();
         var routerDepositMoney = express.Router();
         var routerShowBalance = express.Router();
@@ -20,39 +20,39 @@ var App = /** @class */ (function () {
                 message: "ok"
             });
         });
+        //routerSetInitialBalance
+        router.get('/atm/setInitialBalance/:acct/balance/:bal', function (req, res) {
+            console.log("routerSetInitialBalance is being called by: " + req.params.acct);
+            res.json({
+                account: req.params.acct,
+                amount: req.params.bal
+            });
+        });
         //routerWithdrawMoney
         router.get('/atm/withdraw/:account/amount/:amount', function (req, res) {
             console.log("routerWithdrawMoney is being called by: " + req.params.account);
-            //this.accFunds = this.accFunds - (req.params.amount); 
-            res.json({
-                acctNum: req.params.account
-            });
-        });
-        //routerDepositMoney
-        router.get('/atm/deposit/:account/amount/:amount', function (req, res) {
-            console.log("routerDepositMoney is being called by: " + req.params.account);
-            //this.accFunds = this.accFunds + amt;
             res.json({
                 account: req.params.account,
                 amount: req.params.amount
             });
         });
-        /*
-        router.get('/atm', (req, res) => {
+        //routerDepositMoney
+        router.get('/atm/deposit/:account/amount/:amount', function (req, res) {
+            console.log("routerDepositMoney is being called by: " + req.params.account);
             res.json({
-                status: 0,
-                message: "ok"
-            })
-        }); */
+                account: req.params.account,
+                amount: req.params.amount
+            });
+        });
         //routerShowBalance
-        router.get('/atm/:citNum', function (req, res) {
-            console.log("routerShowBalance is being called by: " + req.params.citNum);
+        router.get('/atm/:account', function (req, res) {
+            console.log("routerShowBalance is being called by: " + req.params.account);
             res.json({
-                acctNum: req.params.citNum
+                account: req.params.account
             });
         });
         this.express.use('/', router);
-        //this.express.use('/', routerSetInitialBalance)
+        this.express.use('/', routerSetInitialBalance);
         this.express.use('/', routerWithdrawMoney);
         this.express.use('/', routerDepositMoney);
         this.express.use('/', routerShowBalance);
