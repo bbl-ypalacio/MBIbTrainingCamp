@@ -1,16 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var got_1 = require("got");
 var Atm = /** @class */ (function () {
     // The constructor for the ATM class only specifies a signature without any code
     function Atm() {
     }
     Atm.prototype.setInitialBalance = function (acct, balance) {
-        got_1.got.get('http://localhost:3000/${acct}/amount/${balance}').then(result);
-        {
-            var data = JSON.parse(result);
-        }
-        ;
+        /*
+        got.get('http://localhost:3000/${acct}/amount/${balance}').then(result){
+            let data = JSON.parse(result);
+        };*/
         this.accountNumber = acct;
         this.initialBalance = balance;
         this.currentBalance = balance;

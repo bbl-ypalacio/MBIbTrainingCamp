@@ -8,7 +8,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 var express = __importStar(require("express"));
-var got = __importStar(require("got"));
 var App = /** @class */ (function () {
     function App() {
         this.express = express();
@@ -16,16 +15,10 @@ var App = /** @class */ (function () {
     }
     App.prototype.mountRoutes = function () {
         var router = express.Router();
-        router.get('/', function (req, res) {
-            got.get("<-Ending->").then(function (resp) {
-                res.json({
-                    resp: resp.body
-                });
-            });
-            router.get('/hello', function (req, res) {
-                res.json({
-                    resp: "Yserri was here"
-                });
+        router.get('/atm', function (req, res) {
+            res.json({
+                status: 0,
+                message: "ok"
             });
         });
         this.express.use('/', router);

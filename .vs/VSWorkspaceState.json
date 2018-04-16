@@ -2,11 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Assigmnets",
-    "\\Assigmnets\\Ass4",
-    "\\Assigmnets\\Ass4\\WebService",
-    "\\Assigmnets\\Ass4\\WebService\\build",
-    "\\Assigmnets\\Ass4\\WebService\\SRC"
+    "\\Assigmnets\\Ass4_v1",
+    "\\Assigmnets\\Ass4_v1\\ATMClass",
+    "\\Assigmnets\\Ass4_v1\\ATMClass\\src",
+    "\\Assigmnets\\Ass4_v1\\WebService",
+    "\\Assigmnets\\Ass4_v1\\WebService\\SRC"
   ],
-  "SelectedNode": "\\Assigmnets\\Ass4\\WebService\\package.json",
+  "SelectedNode": "\\Assigmnets\\Ass4_v1\\ATMClass\\src\\AtmClass.ts",
   "PreviewInSolutionExplorer": false
 }

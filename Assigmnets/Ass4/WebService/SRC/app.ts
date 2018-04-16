@@ -1,8 +1,7 @@
 import * as express from 'express';
-import * as got from 'got';
 
 class App {
-    public express
+    public express;
 
     constructor() {
         this.express = express()
@@ -11,23 +10,15 @@ class App {
 
     private mountRoutes(): void {
 
-        const router = express.Router()
-        
-        router.get('/', (req, res) => {
-            got.get("<-Ending->").then(
-                resp => {
-                    res.json({
-                        resp: resp.body
-                    })
-                });
+        const router = express.Router();
 
-            router.get('/hello', (req, res) => {
+        router.get('/atm', (req, res) => {
 
-                res.json({
-                    resp: "Yserri was here"
-                })
-            });
-        })
+            res.json({
+                status: 0,
+                message: "ok"
+            })
+        });        
 
         this.express.use('/', router)
     }

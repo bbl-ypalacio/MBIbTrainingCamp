@@ -9,13 +9,14 @@ export class Atm implements AtmInterface {
 
     // The constructor for the ATM class only specifies a signature without any code
     constructor () {
-
+        
      }
 
     setInitialBalance(acct: string, balance: number): void {
+        /*
         got.get('http://localhost:3000/${acct}/amount/${balance}').then(result){
             let data = JSON.parse(result);
-        };
+        };*/
 
                this.accountNumber = acct;
                this.initialBalance = balance;
