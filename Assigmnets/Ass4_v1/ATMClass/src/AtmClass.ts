@@ -11,6 +11,10 @@ export class Atm implements AtmInterface {
     constructor () {
         
      }
+	 //TODO:
+	 //isAliveConnection()
+	 //use loadash for db
+	 //Put logic in webervice
 
     setInitialBalance(acct: string, balance: number): void { 
                this.accountNumber  = acct;

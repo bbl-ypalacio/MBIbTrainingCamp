@@ -1,13 +1,18 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assigmnets",
-    "\\Assigmnets\\Ass4_v1",
-    "\\Assigmnets\\Ass4_v1\\ATMClass",
-    "\\Assigmnets\\Ass4_v1\\ATMClass\\src",
-    "\\Assigmnets\\Ass4_v1\\WebService",
-    "\\Assigmnets\\Ass4_v1\\WebService\\SRC"
+    "\\Assigmnets\\Ass4_v2\\ATMClass",
+    "\\Assigmnets\\Ass4_v2\\ATMClass\\src",
+    "\\training",
+    "\\training\\Angular",
+    "\\training\\Angular\\day02",
+    "\\training\\Angular\\day02\\example",
+    "\\training\\Angular\\day02\\example\\example",
+    "\\training\\Angular\\day02\\example\\example\\src",
+    "\\training\\Angular\\day02\\example\\example\\src\\app",
+    "\\training\\Angular\\day02\\example\\example\\src\\app\\services",
+    "\\training\\Angular\\day1\\example01"
   ],
-  "SelectedNode": "\\Assigmnets\\Ass4_v1\\ATMClass\\src\\AtmClass.ts",
+  "SelectedNode": "\\training\\Angular\\day02\\example\\example\\src\\app\\app.module.ts",
   "PreviewInSolutionExplorer": false
 }
