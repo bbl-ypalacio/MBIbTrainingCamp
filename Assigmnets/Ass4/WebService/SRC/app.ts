@@ -35,7 +35,7 @@ class App {
         //routerIsAliveConnection
         routerIsAliveConnection.get('/atm/isAliveConnection', (req, res) => {
             console.log("isAliveConnection is being called");
-			resp.setHeader('Access-Control-Allow-Origin', '*');
+			res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 status	: 0,
                 message	: "Ok"
@@ -46,7 +46,7 @@ class App {
         routerAccountExists.get('/atm/AccountExists/:acct', (req, res) => {
             console.log("routerAccountExists is being called by: " + req.params.acct);
             let accExist = this.accountExists(req.params.acct);
-			resp.setHeader('Access-Control-Allow-Origin', '*');
+			res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 status: accExist
             })
@@ -71,7 +71,7 @@ class App {
 
             this.transactionList.transactions.push(newTransaction);
 			
-			resp.setHeader('Access-Control-Allow-Origin', '*');
+			res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 account : this.localDB.accounts[result].accountNumber,
                 newBal  : this.localDB.accounts[result].currentBalance
@@ -102,7 +102,7 @@ class App {
 
             this.transactionList.transactions.push(newTransaction);
 			
-			resp.setHeader('Access-Control-Allow-Origin', '*');
+			res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                         account : this.localDB.accounts[result].accountNumber,
                         newBal  : this.localDB.accounts[result].currentBalance
@@ -132,7 +132,7 @@ class App {
 
             this.transactionList.transactions.push(newTransaction);
 			
-			resp.setHeader('Access-Control-Allow-Origin', '*');
+			res.setHeader('Access-Control-Allow-Origin', '*');
 				res.json({
                     account : this.localDB.accounts[result].accountNumber,
                     newBal  : this.localDB.accounts[result].currentBalance
@@ -149,7 +149,7 @@ class App {
 
                 let result = _.findIndex(this.localDB.accounts, { 'accountNumber': req.params.account });
 				
-				resp.setHeader('Access-Control-Allow-Origin', '*');
+				res.setHeader('Access-Control-Allow-Origin', '*');
 				res.json({
                     account: req.params.account,
                     newBal: this.localDB.accounts[result].currentBalance				
@@ -173,7 +173,7 @@ class App {
                     }
                 );
 				
-				resp.setHeader('Access-Control-Allow-Origin', '*');
+				res.setHeader('Access-Control-Allow-Origin', '*');
                 res.json({
                     lastOperations: result
                 })
