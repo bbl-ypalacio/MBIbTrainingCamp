@@ -1,4 +1,4 @@
-export interface AtmTnterface {
+export interface AtmInterface {
 
     status        : string,
     message       : string,

@@ -1,5 +1,12 @@
 import { Component } from '@angular/core';
+import { checkAndUpdatePureExpressionDynamic } from '@angular/core/src/view/pure_expression';
+
+import { Observable } from 'rxjs';
+import { map, filter, switchMap } from 'rxjs/operators';
+
+import { AtmInterface } from './interface/interface';
 import { AtmServiceService } from './services/atm-service.service';
+
 
 @Component({
   selector: 'app-root',
@@ -8,21 +15,34 @@ import { AtmServiceService } from './services/atm-service.service';
 })
 
 export class AppComponent {
-  title = '';
+  title = 'ATM Demo';
   balance = 0;
-  depost = 0;
-  withdraw = 0;
-  /*status          = '';
+  status          = '';
   message         = '';
   account         = '';
   newBal          = 0;
-  lastOperations  = [];*/
+  lastOperations  = [];
+  atmInter: AtmInterface;
 
   constructor(public atmService: AtmServiceService) {
-    this.title    = 'ATM Demo';
-    this.balance  = atmService.getBalance("23232-1");//atmService.getBalance("23232-1");//
-    this.depost   = atmService.depositMoney("23232-1", 500);
-    this.withdraw = atmService.withdrawal("23232-1", 500);
+    
+    atmService.getBalance("23232-1").subscribe(value => {
+      this.account = value.account;
+      this.balance = value.newBal;
+
+    });
+    
+    atmService.withdrawal("23232-1", 50).subscribe(value => {
+      this.account = value.account;
+      this.balance = value.newBal;
+
+    });
+
+    atmService.depositMoney("23232-1", 20).subscribe(value => {
+      this.account = value.account;
+      this.balance = value.newBal;
+
+    });
 
   }
 
