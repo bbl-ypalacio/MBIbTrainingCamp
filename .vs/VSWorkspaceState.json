@@ -2,15 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Assigmnets",
-    "\\Assigmnets\\Ass4\\ATMClass\\src",
-    "\\Assigmnets\\Ass4\\WebService\\SRC",
     "\\Assigmnets\\Ass5",
     "\\Assigmnets\\Ass5\\AtmProject",
-    "\\Assigmnets\\Ass5\\AtmProject\\AtmProject\\src",
-    "\\Assigmnets\\Ass5\\AtmProject\\AtmProject\\src\\app",
-    "\\training\\Angular",
-    "\\training\\typeScrip"
+    "\\Assigmnets\\Ass5\\AtmProject\\src",
+    "\\Assigmnets\\Ass5\\AtmProject\\src\\app",
+    "\\Assigmnets\\Ass5\\AtmProject\\src\\app\\services"
   ],
-  "SelectedNode": "\\Assigmnets\\Ass5",
+  "SelectedNode": "\\Assigmnets\\Ass5\\AtmProject\\src\\styles.css",
   "PreviewInSolutionExplorer": false
 }
