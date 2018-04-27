@@ -29,19 +29,16 @@ export class AppComponent {
     atmService.getBalance("23232-1").subscribe(value => {
       this.account = value.account;
       this.balance = value.newBal;
-
     });
     
     atmService.withdrawal("23232-1", 50).subscribe(value => {
       this.account = value.account;
       this.balance = value.newBal;
-
     });
 
     atmService.depositMoney("23232-1", 20).subscribe(value => {
       this.account = value.account;
       this.balance = value.newBal;
-
     });
 
   }

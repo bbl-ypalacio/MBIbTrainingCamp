@@ -1,5 +1,7 @@
 import * as express from 'express';
 import * as _ from 'lodash';
+import * as cors from 'cors';
+
 
 import { InitialData } from './AtmDB/atm.data';
 import { accountList, accountModel, TransactionList, TransactionModel } from './AtmDB/atm.model';
@@ -12,6 +14,7 @@ class App {
 
     constructor() {
         this.express = express();
+        this.express.use(cors());
         this.mountRoutes();		
 		/*
          *  Initialize the local DB
@@ -35,7 +38,7 @@ class App {
         //routerIsAliveConnection
         routerIsAliveConnection.get('/atm/isAliveConnection', (req, res) => {
             console.log("isAliveConnection is being called");
-			res.setHeader('Access-Control-Allow-Origin', '*');
+			//res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 status	: 0,
                 message	: "Ok"
@@ -44,9 +47,9 @@ class App {
 		
 		//routerAccountExists
         routerAccountExists.get('/atm/AccountExists/:acct', (req, res) => {
-            console.log("routerAccountExists is being called by: " + req.params.acct);
+            //console.log("routerAccountExists is being called by: " + req.params.acct);
             let accExist = this.accountExists(req.params.acct);
-			res.setHeader('Access-Control-Allow-Origin', '*');
+			//res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 status: accExist
             })
@@ -54,7 +57,7 @@ class App {
 
         //routerSetInitialBalance//TODO:modify to alter array
         routerSetInitialBalance.get('/atm/setInitialBalance/:acct/balance/:bal', (req, res) => {	
-		console.log("routerSetInitialBalance is being called by: " + req.params.acct);		
+		//console.log("routerSetInitialBalance is being called by: " + req.params.acct);		
         if (this.accountExists(req.params.acct)) {
 
             let acc = req.params.acct;
@@ -71,7 +74,7 @@ class App {
 
             this.transactionList.transactions.push(newTransaction);
 			
-			res.setHeader('Access-Control-Allow-Origin', '*');
+			//res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                 account : this.localDB.accounts[result].accountNumber,
                 newBal  : this.localDB.accounts[result].currentBalance
@@ -102,7 +105,7 @@ class App {
 
             this.transactionList.transactions.push(newTransaction);
 			
-			res.setHeader('Access-Control-Allow-Origin', '*');
+			//res.setHeader('Access-Control-Allow-Origin', '*');
             res.json({
                         account : this.localDB.accounts[result].accountNumber,
                         newBal  : this.localDB.accounts[result].currentBalance
@@ -132,7 +135,7 @@ class App {
 
             this.transactionList.transactions.push(newTransaction);
 			
-			res.setHeader('Access-Control-Allow-Origin', '*');
+			//res.setHeader('Access-Control-Allow-Origin', '*');
 				res.json({
                     account : this.localDB.accounts[result].accountNumber,
                     newBal  : this.localDB.accounts[result].currentBalance
@@ -149,7 +152,7 @@ class App {
 
                 let result = _.findIndex(this.localDB.accounts, { 'accountNumber': req.params.account });
 				
-				res.setHeader('Access-Control-Allow-Origin', '*');
+				//res.setHeader('Access-Control-Allow-Origin', '*');
 				res.json({
                     account: req.params.account,
                     newBal: this.localDB.accounts[result].currentBalance				
@@ -173,7 +176,7 @@ class App {
                     }
                 );
 				
-				res.setHeader('Access-Control-Allow-Origin', '*');
+				//res.setHeader('Access-Control-Allow-Origin', '*');
                 res.json({
                     lastOperations: result
                 })
