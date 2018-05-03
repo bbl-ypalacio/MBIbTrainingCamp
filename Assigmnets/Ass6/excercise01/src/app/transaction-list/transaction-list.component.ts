@@ -15,16 +15,27 @@ export class TransactionListComponent implements OnInit {
   ngOnInit() {
 
      this.atmService.onUpdatedTransactions$.subscribe(data =>  {
-             this.getLastOperations('23232-1');
-          });
+              this.getLastOperations(this.atmService.getAccountNumber());
+       });
+
+       this.atmService.onUpdateAccountNumber$.subscribe(resp => {
+               this.getLastOperations(this.atmService.getAccountNumber());
+
+       });
+
   }
 
   getLastOperations(acct:string) {
 
      this.atmService.getLastOperations(acct).subscribe(result => {
+          console.log('onUpdatedTransactions received()');
+
           this.atmTransactions = result;
     });
 
   }
 
+  showPanel(){
+    return this.atmService.accountValid;
+  }
 }

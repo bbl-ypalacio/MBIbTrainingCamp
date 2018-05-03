@@ -1,0 +1,6 @@
+<div class="container" *ngIf="validAccount()">
+  <h3>{{currentOperation}}</h3>
+  <p>Acct No. {{atmResponse.accountNumber}}</p>
+  <p>Current Balance {{atmResponse.currentBalance | currency }}</p>
+</div>
+

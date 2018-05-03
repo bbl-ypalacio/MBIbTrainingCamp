@@ -2,13 +2,17 @@
   "ExpandedNodes": [
     "",
     "\\Assigmnets",
-    "\\Assigmnets\\Ass5\\AtmProject",
-    "\\Assigmnets\\Ass5\\AtmProject\\src",
-    "\\Assigmnets\\Ass5\\AtmProject\\src\\app",
-    "\\Assigmnets\\Ass5\\AtmProject\\src\\app\\services",
     "\\Assigmnets\\Ass6",
-    "\\training\\Angular"
+    "\\Assigmnets\\Ass6\\finalLabWebService\\src",
+    "\\Assigmnets\\Ass6\\lab04",
+    "\\Assigmnets\\Ass6\\lab04\\src",
+    "\\Assigmnets\\Ass6\\lab04\\src\\app",
+    "\\Assigmnets\\Ass6\\lab04\\src\\app\\components",
+    "\\Assigmnets\\Ass6\\lab04\\src\\app\\components\\authenticate",
+    "\\Assigmnets\\Ass6\\lab04\\src\\app\\components\\operation-list",
+    "\\Assigmnets\\Ass6\\lab04\\src\\app\\components\\transaction-list",
+    "\\Assigmnets\\Ass6\\lab04\\src\\app\\services"
   ],
-  "SelectedNode": "\\Assigmnets\\Ass6",
+  "SelectedNode": "\\Assigmnets\\Ass6\\lab04\\src\\app\\components\\operation-list\\operation-list.component.ts",
   "PreviewInSolutionExplorer": false
 }
