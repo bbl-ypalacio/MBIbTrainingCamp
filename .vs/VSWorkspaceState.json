@@ -1,18 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assigmnets",
-    "\\Assigmnets\\Ass6",
-    "\\Assigmnets\\Ass6\\finalLabWebService\\src",
-    "\\Assigmnets\\Ass6\\lab04",
-    "\\Assigmnets\\Ass6\\lab04\\src",
-    "\\Assigmnets\\Ass6\\lab04\\src\\app",
-    "\\Assigmnets\\Ass6\\lab04\\src\\app\\components",
-    "\\Assigmnets\\Ass6\\lab04\\src\\app\\components\\authenticate",
-    "\\Assigmnets\\Ass6\\lab04\\src\\app\\components\\operation-list",
-    "\\Assigmnets\\Ass6\\lab04\\src\\app\\components\\transaction-list",
-    "\\Assigmnets\\Ass6\\lab04\\src\\app\\services"
+    "\\Assigmnets"
   ],
-  "SelectedNode": "\\Assigmnets\\Ass6\\lab04\\src\\app\\components\\operation-list\\operation-list.component.ts",
+  "SelectedNode": "\\Assigmnets\\Ass7",
   "PreviewInSolutionExplorer": false
 }
