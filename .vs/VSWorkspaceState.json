@@ -1,8 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Assigmnets"
+    "\\Assigmnets",
+    "\\Assigmnets\\Ass6",
+    "\\Assigmnets\\Ass6\\finalLabWebService",
+    "\\Assigmnets\\Ass6\\finalLabWebService\\src",
+    "\\Assigmnets\\Ass6\\finalLabWebService\\src\\atm",
+    "\\Assigmnets\\Ass7",
+    "\\Assigmnets\\Ass7\\AtmWebServiceMongo",
+    "\\Assigmnets\\Ass7\\AtmWebServiceMongo\\src",
+    "\\Assigmnets\\Ass7\\AtmWebServiceMongo\\src\\atm",
+    "\\Assigmnets\\Ass7\\AtmWebServiceMongo\\src\\atm\\database"
   ],
-  "SelectedNode": "\\Assigmnets\\Ass7",
+  "SelectedNode": "\\Assigmnets\\Ass6\\finalLabWebService\\src\\atm\\atm.data.ts",
   "PreviewInSolutionExplorer": false
 }
