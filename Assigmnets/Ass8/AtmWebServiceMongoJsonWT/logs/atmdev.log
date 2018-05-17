@@ -1,0 +1,6 @@
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"14:44:04"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"14:44:04"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"14:44:04"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"14:44:04"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"14:44:04"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1450","timestamp":"14:44:04"}
