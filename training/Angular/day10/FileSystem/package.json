@@ -1,0 +1,20 @@
+{
+  "name": "filesystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/csv-parse": "^1.1.11",
+    "@types/node": "^10.1.1",
+    "csv-parse": "^2.4.0",
+    "csv-parser": "^1.12.1",
+    "fast-csv": "^2.4.1",
+    "npm": "^6.0.1",
+    "typescript": "^2.8.3"
+  }
+}
