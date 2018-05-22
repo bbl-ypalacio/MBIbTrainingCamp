@@ -5,4 +5,4 @@ describe('DepositOnlyPipe', () => {
     const pipe = new DepositOnlyPipe();
     expect(pipe).toBeTruthy();
   });
-});
+}); 
