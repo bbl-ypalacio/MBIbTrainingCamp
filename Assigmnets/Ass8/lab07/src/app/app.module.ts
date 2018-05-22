@@ -1,9 +1,3 @@
-/*
-  Instructor : Mario Estrada Rosa
-  Email  : marioestrada@eycgrupo.com
-  Date   : April 2018
-  Class  : Introduction to Angular Framework
-*/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';

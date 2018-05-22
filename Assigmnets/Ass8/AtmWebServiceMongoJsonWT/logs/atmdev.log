@@ -57,3 +57,21 @@
 {"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"17:13:02"}
 {"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"17:13:02"}
 {"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"17:13:02"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"06:29:36"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"06:29:36"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"06:29:37"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"06:29:37"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"06:29:37"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"06:29:37"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"06:29:43"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"06:29:43"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"06:29:44"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"06:34:55"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"06:34:55"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"06:34:55"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"06:34:55"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"06:34:55"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"06:34:55"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"06:34:59"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"06:34:59"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"06:34:59"}
