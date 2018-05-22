@@ -11,7 +11,7 @@ import { environment }     from './environment/environment';
 
 import { RouteGuard } from './lib/routeGuard';
 import { Atm } from './atm/atm';
-import { Logger } from 'mongodb';
+import { Logger } from 'mongodb'; 
  
 export class App {
 
