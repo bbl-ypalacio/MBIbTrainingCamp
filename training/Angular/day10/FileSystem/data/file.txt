@@ -1,5 +1,5 @@
-this is line one 
-this is line two 
-this is line three
+this is the first line
+this is the second line
+finally the last line
 
-end
+end.

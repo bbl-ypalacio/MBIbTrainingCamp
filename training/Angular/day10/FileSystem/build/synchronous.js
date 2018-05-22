@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs = require("fs");
 var data = null;
 try {
-    data = fs.readdirSync('./data/file.txt', 'utf8');
+    data = fs.readFileSync('./data/file.txt', 'utf8');
     console.log(data);
 }
 catch (err) {
