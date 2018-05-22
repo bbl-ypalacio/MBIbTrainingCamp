@@ -15,12 +15,15 @@
 
 <div class="container">
   <div class="row">  
-      <div class="col-sm-5">
+      <div class="col-sm-3">
            <button type="button"  (click)="goToMakeAWithdrawl()" class="btn btn-primary btn-block">Withdraw</button>
            <button type="button"  (click)="goToMakeADeposit()" class="btn btn-primary btn-block">Deposit</button>
        </div>
-       <div class="col-sm-2">&nbsp;</div>
-      <div class="col-sm-5">
+       <div class="col-sm-6">
+           <router-outlet></router-outlet>
+           
+       </div>
+      <div class="col-sm-3">
                <button type="button" (click)="goToTransactionList()" class="btn btn-primary btn-block">Transactions</button>
                <button type="button" (click)="logOff()" class="btn btn-danger btn-block">LogOff</button>
        </div>

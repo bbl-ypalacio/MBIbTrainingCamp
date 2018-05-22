@@ -19,6 +19,7 @@ import { AtmoperationsComponent } from './components/atmoperations/atmoperations
 import { AuthenticateComponent } from './components/authenticate/authenticate.component';
 import { MainopComponent } from './components/mainop/mainop.component';
 import { HttpInterceptorService } from './services/http-interceptor.service';
+import { DepositOnlyPipe } from './pipes/deposit-only.pipe';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HttpInterceptorService } from './services/http-interceptor.service';
     TransactionListComponent,
     AtmoperationsComponent,
     AuthenticateComponent,
-    MainopComponent
+    MainopComponent,
+    DepositOnlyPipe
   ],
   
   imports: [

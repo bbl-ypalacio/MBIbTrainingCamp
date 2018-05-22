@@ -33,16 +33,21 @@ export class MainopComponent implements OnInit {
       
   }
 
+  
   goToTransactionList() {
-      this.router.navigate([{outlets: {insideatm:['transactionlist',{op:true}]}}]);
+     // this.router.navigate([{outlets: {insideatm:['transactionlist',{op:true}]}}]);
+     this.router.navigate(['mainoperation/transactionlist']);
    }
 
    goToMakeADeposit() {
-       this.router.navigate([{outlets: {insideatm:['operations',{ arg : 'deposit' }]}}]);
+     //  this.router.navigate([{outlets: {insideatm:['operations',{ arg : 'deposit' }]}}]);
+      this.router.navigate(['mainoperation/operations',{arg:"deposit"}]);
+
    }
 
    goToMakeAWithdrawl() {
-    this.router.navigate([{outlets: {insideatm:['operations',{ arg: 'withdrawl' }]}}]);
+    //this.router.navigate([{outlets: {insideatm:['operations',{ arg: 'withdrawl' }]}}]);
+     this.router.navigate(['mainoperation/operations',{arg:"withdrawl"}])
 }
 
   logOff(){
