@@ -4,14 +4,6 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { AlertController} from  'ionic-angular';
 import { AtmserviceProvider } from '../../providers/atmservice/atmservice';
 
-
-/**
- * Generated class for the WithdrawPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-withdraw',
@@ -38,9 +30,13 @@ export class WithdrawPage {
 
     let amount = this.withdrawForm.get("amount").value;
     let accountNumber = this.atmServiceProvider.getAccountNumber();
+    let cBal = this.atmServiceProvider.getCurrentBalance(accountNumber);
 
-    //validation for withdrawal amount
-    if(amount <= this.atmServiceProvider.currentBalance){
+    console.log("amount is   :" + amount);
+    console.log("Balaance is :"+ cBal);
+
+    //is there enough to withdraw?
+    if(amount <= cBal){
       this.atmServiceProvider.withDraw(accountNumber, amount).then (
         (succ) => {
           loader.dismiss();
