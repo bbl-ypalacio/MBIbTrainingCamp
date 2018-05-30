@@ -56,7 +56,6 @@ export class LoginPage {
                   let toast = this.toastCtrl.create({message:'Invalid credentials',duration:3000});
                   loader.dismiss();
                   toast.present();
-
              }
             
        );

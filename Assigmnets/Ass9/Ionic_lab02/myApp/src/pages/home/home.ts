@@ -34,8 +34,24 @@ export class HomePage {
     return this.currentBalace;
   }*/
 
+  getCurrentBalance() {
+    return this.atmService.getCurrentBalance(this.atmService.accountNumber);
+  }
+
   getAccountName(): string {
     return this.acccountName;
   }
+
+  makeDeposit() {
+    this.navCtrl.push("DepositPage");
+  }
+
+  makeWithdraw() {
+    this.navCtrl.push("WithdrawPage");
+  }
+
+
+
+
 
 }

@@ -10,7 +10,10 @@
     Your current balance {{currentBalace|currency}}
   </p>
 
-  <button color = "primary" ion-button >Deposit</button>
-  <button color = "danger" ion-button >Withdraw</button> 
+  <ion-list>
+      <button color = "primary" (click) = "makeDeposit()" ion-item >Deposit</button>
+      <button color = "danger" (click) = "makeWithdraw()" ion-item >Withdraw</button> 
+  </ion-list>
+  
 
 </ion-content>
