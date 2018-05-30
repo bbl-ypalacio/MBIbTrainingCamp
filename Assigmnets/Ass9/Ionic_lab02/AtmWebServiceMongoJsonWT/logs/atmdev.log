@@ -585,3 +585,149 @@
 {"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:17:13"}
 {"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:17:13"}
 {"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:17:13"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:20:12"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:20:12"}
+{"level":"debug","message":"Peformed a deposit of   1 to account #  23232-1","timestamp":"23:20:12"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:20:12"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:20:12"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:20:12"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1001","timestamp":"23:20:12"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:20:32"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:20:32"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:20:32"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1001","timestamp":"23:20:32"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:20:42"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:20:42"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:20:42"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1001","timestamp":"23:20:42"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:30:55"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:30:55"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:30:56"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:30:56"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:30:56"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1001","timestamp":"23:30:56"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:36:57"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:36:57"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:36:57"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:36:57"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:36:57"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1001","timestamp":"23:36:57"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:37:04"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:37:04"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:37:04"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1001","timestamp":"23:37:04"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:37:11"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:37:11"}
+{"level":"debug","message":"Peformed a withtrawl of   1  from account #  23232-1","timestamp":"23:37:12"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:37:12"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:37:12"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:37:12"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:37:12"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:39:58"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:39:58"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:39:58"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:39:58"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:39:58"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:39:59"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:40:08"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:40:08"}
+{"level":"debug","message":"Peformed a deposit of   10 to account #  23232-1","timestamp":"23:40:09"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:40:09"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:40:09"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:40:09"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1010","timestamp":"23:40:09"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:40:18"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:40:18"}
+{"level":"debug","message":"Peformed a withtrawl of   10  from account #  23232-1","timestamp":"23:40:18"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:40:18"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:40:18"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:40:18"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:40:19"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:41:43"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:41:43"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:41:45"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:45:14"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:45:14"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:45:15"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:45:15"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:45:15"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:45:15"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:45:20"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:45:20"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:45:21"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:45:25"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:45:25"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:45:25"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:45:31"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:45:31"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:45:32"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:47:42"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:47:42"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:47:43"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:47:43"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:47:43"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:47:43"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:47:48"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:47:48"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:47:48"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:47:48"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:47:50"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:47:50"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:47:51"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:47:56"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:47:56"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:47:56"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:51:54"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:51:54"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:51:54"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:51:54"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:51:54"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:51:54"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:52:05"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:52:05"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:52:05"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:52:16"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:52:16"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:52:16"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:52:24"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:52:24"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:52:27"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:52:27"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:52:43"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:52:43"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:52:44"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:52:44"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:52:54"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:52:54"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:52:54"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:52:54"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:52:54"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:52:55"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:53:15"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:53:15"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:53:15"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:53:18"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:53:18"}
+{"level":"debug","message":"Transaction listing  requested for account #  23232-1","timestamp":"23:53:19"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:53:21"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:53:21"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:53:21"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:53:21"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:56:44"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:56:44"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:56:44"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:56:44"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:56:44"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:56:44"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:57:50"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:57:50"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"23:57:50"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"23:57:50"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"23:57:50"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"23:57:50"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"00:43:15"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"00:43:15"}
+{"level":"info","message":"Intercepting ALL Requests to check API KEY","timestamp":"00:43:16"}
+{"level":"info","message":"Api Key is VALID, going to requested URL now","timestamp":"00:43:16"}
+{"level":"debug","message":"Attempting to get Current Balance for Acct #  23232-1","timestamp":"00:43:16"}
+{"level":"debug","message":"Queried Balance for Acct #  23232-1 Balance 1000","timestamp":"00:43:16"}

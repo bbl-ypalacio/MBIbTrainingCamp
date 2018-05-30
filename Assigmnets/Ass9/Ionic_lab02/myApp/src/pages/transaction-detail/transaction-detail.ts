@@ -27,7 +27,7 @@ export class TransactionDetailPage {
     console.log('ionViewDidLoad TransactionDetailPage');
   }
 
-  dismissThis (){
+  dismissThis(){
     this.navCtrl.pop();
   }
 
