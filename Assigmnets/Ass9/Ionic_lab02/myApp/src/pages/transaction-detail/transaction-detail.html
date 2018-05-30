@@ -12,17 +12,18 @@
 
 </ion-header>
 
-
 <ion-content padding>
+  <ion-list>
+    <ion-label>Transaction Date</ion-label>
+    <ion-item> {{transaction.dateOfTransaction}}</ion-item>
 
+    <ion-label>Transaction Type</ion-label>
+    <ion-item> {{transaction.transactionType}}</ion-item>
 
-<ion-list>
-    <ion-lable>Transaction date</ion-lable>
-    <ion-item>{{transaction.dateOfTransaction}}</ion-item>
+    <ion-label>Amount</ion-label>
+    <ion-item> {{transaction.amount}}</ion-item>
+  </ion-list>
 
-</ion-list>
-
-<button (click) = "dismissThis()" ion-button block></button>
-
+  <button ion-button block (click)="dimissThis()">Dismiss It</button>
 
 </ion-content>
